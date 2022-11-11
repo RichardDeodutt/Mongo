@@ -67,3 +67,10 @@ sudo docker volume rm sharedb
 ```
 git pull && sudo docker compose down && sudo docker compose up --build -d
 ```
+
+
+# Diagram
+
+<p align="center">
+<a href="https://github.com/RichardDeodutt/Mongo/blob/main/images/Mongo.drawio.png"><img src="https://github.com/RichardDeodutt/Mongo/blob/main/images/Mongo.drawio.png" />
+</p>
