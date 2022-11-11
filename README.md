@@ -30,6 +30,12 @@ git clone https://github.com/RichardDeodutt/Mongo.git
 cd Mongo
 ```
 
+## Create persistent volume sharedb
+
+```
+sudo docker volume create sharedb
+```
+
 ## Docker compose Build Detached
 
 ```
@@ -37,12 +43,6 @@ sudo docker compose up --build -d
 ```
 
 When done press Ctrl + C to quit
-
-## Create persistent volume sharedb
-
-```
-sudo docker volume create sharedb
-```
 
 # One Liner which runs in the background
 
