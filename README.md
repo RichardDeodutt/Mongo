@@ -1,10 +1,10 @@
 # Mongo
 
-A MongoDB with mongo-express
+A MongoDB with mongo-express. 
 
-First I started without a persistent volume so there was no volume code in the docker-compose file and it ran fine but when the contrainers are removed the data is lost. 
+- First I started without a persistent volume so there was no volume code in the docker-compose file and it ran fine but when the contrainers are removed the data is lost. 
 
-Second I added a persistent volume to the docker engine and then made the docker-compose file use the external persistent volume to store the database. 
+- Second I added a persistent volume to the docker engine and then made the docker-compose file use the external persistent volume to store the database. 
 
 # Notes
 
